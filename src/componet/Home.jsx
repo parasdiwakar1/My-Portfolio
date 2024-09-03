@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home-container" id="home">
       <div className="profile-section">
-        <img className="profile-img" src="https://i.ibb.co/dP6vQvJ/paras-img.jpg" alt="Profile" />
+        <img className="profile-img" src="https://i.ibb.co/3Rx91t9/paras-a4.jpg" alt="Profile" />
         <div className="social-icons">
           <a href="https://github.com/parasdiwakar1" target="_blank" rel="noopener noreferrer" className="social-icon">
             <i className="fa-brands fa-github"></i>

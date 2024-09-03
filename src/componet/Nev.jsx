@@ -9,7 +9,6 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
-    
     const handleLinkClick = () => {
         setIsOpen(false);
     };
@@ -18,11 +17,10 @@ function Navbar() {
         <nav className="navbar">
             <div className="container-x">
                 <Link to="home" className="navbar-brand" spy={true} smooth={true} offset={-70} duration={100}>
-                    {/* <i className="fa-regular fa-face-smile logo-icon"></i> */}
                     <span className="brand-name">🌟Paras Diwakar🌟</span>
                 </Link>
                 <button className="navbar-toggler" id="navbar-toggler" onClick={handleToggle}>
-                    <span className="toggler-icon">&#x2630;</span> 
+                    <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
                 </button>
                 <div className={`navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
                     <ul className="navbar-nav">

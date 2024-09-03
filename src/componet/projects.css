@@ -16,6 +16,16 @@
   margin: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.navbar-toggler i {
+  font-size: 24px; /* Adjust the size */
+  color: #333;     /* Change the color as needed */
+  transition: color 0.3s ease;
+}
+
+.navbar-toggler i:hover {
+  color: rgb(227, 43, 43); /* Color on hover */
+}
+
 h3{
   text-align: center;
 }
